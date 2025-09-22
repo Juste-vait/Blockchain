@@ -1,11 +1,11 @@
 # Blockchain
 
-Idėja:
+## Idėja:
 - Turime keturias pradines būsenas (seed'us) 64 bitus (part0, part1, part2, part3). Kartu 256 bitai.
 - For ciklu iteruojame per kiekvieną įvesties baitą ir maišome su pradinėmis būsenomis.
 - Galiausiai sujungiame sumaišytas keturias dalis į vieną 256 bitų = 32 baitų = 64 hex formatu simbolių eilutę.
 
-# Pseudokodas:
+## Pseudokodas:
 Pradžia
     Nustatyti keturias pradines reikšmes:
         part0 = 0x1234567890ABCDEF
@@ -26,7 +26,7 @@ Pradžia
     Išvesti hash
 Pabaiga
 
-# Žingsnis po žingsnio paaiškinimai
+## Paaiškinimai
 Seed'ai (part0..part3) – pradinės reikšmės.
 Iteracija per baitus – for (unsigned char b : input).
 part0 = part0 + b – tiesiog pridedame baitą prie part0.
