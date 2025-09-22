@@ -44,3 +44,27 @@ Pabaiga
 
 ## Paleidimas duodant failą kaip argumentą: 
 "./hash file.txt"
+
+
+
+## Rezultatai
+Išvedimo dydis:
+Failai su vienu simboliu:
+![alt text](79871077-5F47-47CB-9AA7-6B6807AD3E5F_4_5005_c.jpeg)
+64 simboliai - gerai
+hash'ai skiriasi, bet nestipriai
+
+Failai su 1000 simbolių (skiriasi 1 simboliu):
+![alt text](B0B1C2D5-DBC3-451C-8007-B59D73A287B5_4_5005_c.jpeg)
+64 simboliai - gerai
+hash'ai skiriasi, bet nestipriai
+
+Tuščias failas
+![alt text](70ED0F64-778E-4EC0-A685-E1233C451A16_4_5005_c.jpeg)
+64 simboliai - gerai
+
+
+
+Deterministiškumas:
+![alt text](EE844F09-3A94-4B31-B03F-CC20C0B46A0D_4_5005_c.jpeg)
+Tas pats failas duoda tą patį hash'ą - gerai
