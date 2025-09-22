@@ -27,13 +27,13 @@ Pradžia
 Pabaiga
 
 ## Paaiškinimai
-Seed'ai (part0..part3) – pradinės reikšmės.
-Iteracija per baitus – for (unsigned char b : input).
-part0 = part0 + b – tiesiog pridedame baitą prie part0.
-part1 = part1 + part0 * 3 – part0 padauginame iš 3, kad keistųsi baitai ir pridedame prie part1.
-part2 = part2 + part1 + (b * 7) – sujungiam ankstesnes vertes ir baitą padaugintą iš 7.
-part3 = part3 + part2 + (part0 << 1) – <<1 perstumia bitus į kairę per 1, sudedamos visos vertės išskyrus part1.
-Output – kiekvieną 64 bitų (16 hex simbolių) reikšmę atspausdiname su setw(16) + setfill('0'), todėl visada gauname 4×16 = 64 hex simbolius.
+- Seed'ai (part0..part3) – pradinės reikšmės.
+- Iteracija per baitus – for (unsigned char b : input).
+- part0 = part0 + b – tiesiog pridedame baitą prie part0.
+- part1 = part1 + part0 * 3 – part0 padauginame iš 3, kad keistųsi baitai ir pridedame prie part1.
+- part2 = part2 + part1 + (b * 7) – sujungiam ankstesnes vertes ir baitą padaugintą iš 7.
+- part3 = part3 + part2 + (part0 << 1) – <<1 perstumia bitus į kairę per 1, sudedamos visos vertės išskyrus part1.
+- Output – kiekvieną 64 bitų (16 hex simbolių) reikšmę atspausdiname su setw(16) + setfill('0'), todėl visada gauname 4×16 = 64 hex simbolius.
 
 
 ## Kompilaivimas
