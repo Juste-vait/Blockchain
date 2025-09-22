@@ -48,15 +48,15 @@ Pabaiga
 
 
 ## Rezultatai
-Išvedimo dydis:
+Išvedimo dydis:<br>
 Failai su vienu simboliu:
 ![1 simbolis](1.jpeg)
-64 simboliai - gerai
+64 simboliai - gerai<br>
 hash'ai skiriasi, bet nestipriai
 
 Failai su 1000 simbolių (skiriasi 1 simboliu):
 ![1000 simbolių](2.jpeg)
-64 simboliai - gerai
+64 simboliai - gerai<br>
 hash'ai skiriasi, bet nestipriai
 
 Tuščias failas
