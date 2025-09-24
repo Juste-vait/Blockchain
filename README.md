@@ -52,12 +52,12 @@ Išvedimo dydis:<br>
 Failai su vienu simboliu:
 ![1 simbolis](1.jpeg)
 64 simboliai - gerai<br>
-hash'ai skiriasi, bet nestipriai
+hash'ai skiriasi, bet nestipriai - blogai
 
 Failai su 1000 simbolių (skiriasi 1 simboliu):
 ![1000 simbolių](2.jpeg)
 64 simboliai - gerai<br>
-hash'ai skiriasi, bet nestipriai
+hash'ai skiriasi, bet nestipriai - blogai
 
 Tuščias failas
 ![tuščias failas](3.jpeg)
@@ -71,10 +71,13 @@ Efektyvumas:
 ![Efektyvumas](5.jpeg)
 ![Diagrama](8.jpeg)
 
-Kolizijų paieška:
+Kolizijų paieška:<br>
 ![Kolizijos](6.jpeg)
-Gerai, kolizijų nėra
+Kolizijų nėra - gerai
 
 Lavinos efektas:
-![Lavinos efektas](7.jpeg)
-Blogas
+![Lavinos efektas](7.jpeg)<br>
+Labai mažas pokytis - blogai
+
+Hiding ir puzzle-friendliness:
+![Hash atkūrimas](0EF197CC-0F7D-4B9E-B0AD-7B7183C5BA4D_4_5005_c.jpeg)
