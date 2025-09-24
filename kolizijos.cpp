@@ -24,14 +24,12 @@ string hash_funkcija(const string& input) {
     }
 
     stringstream ss;
-    ss << hex << setfill('0') << setw(16) << part0 << setw(16) << part1
-       << setw(16) << part2
-       << setw(16) << part3;
+    ss << hex << setfill('0') << setw(16) << part0 << setw(16) << part1 << setw(16) << part2 << setw(16) << part3;
 
     return ss.str();
 }
 
-string generate_random_string(size_t length) {
+string generuoti_random(size_t length) {
     static const string chars = "abcdefghijklmnopqrstuvwxyz";
     static random_device rd;
     static mt19937 gen(rd());
@@ -45,18 +43,18 @@ string generate_random_string(size_t length) {
     return result;
 }
 
-void test_collisions(size_t text_len) {
+void testavimas(size_t text_len) {
     cout << "Ilgis: " << text_len << " simbolių." << endl;
 
     int collisions = 0;
 
     for (int i = 0; i < PAIRS; i++) {
 
-        string s1 = generate_random_string(text_len);
-        string s2 = generate_random_string(text_len);
+        string s1 = generuoti_random(text_len);
+        string s2 = generuoti_random(text_len);
 
         while (s1 == s2) {
-            s2 = generate_random_string(text_len);
+            s2 = generuoti_random(text_len);
         }
 
         string h1 = hash_funkcija(s1);
@@ -76,7 +74,7 @@ int main() {
     vector<size_t> lengths = {10, 100, 500, 1000};
 
     for (size_t len : lengths) {
-        test_collisions(len);
+        testavimas(len);
     }
 
     cout << "Testavimas baigtas." << endl;

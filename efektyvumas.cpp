@@ -22,10 +22,7 @@ string hash_funkcija(const string &input) {
     }
 
     stringstream ss;
-    ss << hex << setfill('0') << setw(16) << part0
-       << setw(16) << part1
-       << setw(16) << part2
-       << setw(16) << part3;
+    ss << hex << setfill('0') << setw(16) << part0 << setw(16) << part1 << setw(16) << part2 << setw(16) << part3;
     return ss.str();
 }
 
