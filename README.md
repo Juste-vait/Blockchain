@@ -69,7 +69,7 @@ Tas pats failas duoda tą patį hash'ą - gerai
 
 Efektyvumas:
 ![Efektyvumas](5.jpeg)
-![Diagrama](EDF71C12-29AA-4647-BDC5-1F105F5DD8DA.jpeg)
+![Diagrama](8.jpeg)
 
 Kolizijų paieška:
 ![Kolizijos](6.jpeg)
