@@ -63,8 +63,17 @@ Tuščias failas
 ![tuščias failas](3.jpeg)
 64 simboliai - gerai
 
-
-
 Deterministiškumas:
 ![1000 simbolių du kartus](4.jpeg)
 Tas pats failas duoda tą patį hash'ą - gerai
+
+Efektyvumas:
+![Efektyvumas](5.jpeg)
+
+Kolizijų paieška:
+![Kolizijos](6.jpeg)
+Gerai, kolizijų nėra
+
+Lavinos efektas:
+![Lavinos efektas](7.jpeg)
+Blogas
