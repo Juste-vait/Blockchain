@@ -16,37 +16,37 @@ void hash_funkcija(const string& input) {
         part0 = part0 + b;
         part1 = part1 + part0 * 3;
         part2 = part2 + part1 + (b * 7);
-        part3 = part3 + part2 + (part0 << 1);
+        part3 = part3 + part2 + (part0 * 1);
     }
 
-    cout << hex << setfill('0') << setw(16) << part0 << setw(16) << part1 << setw(16) << part2 << setw(16) << part3 << endl;
+    cout << hex << setw(16) << part0 << setw(16) << part1 << setw(16) << part2 << setw(16) << part3 << endl;
 }
 
-int main(int argc, char* argv[]) {
-    string input_text;
+int main(int count, char* arg[]) {
+    string input;
 
-    if (argc > 1) {
+    if (count> 1) {
         
-        ifstream file(argv[1]);
+        ifstream file(arg[1]);
         if (!file.is_open()) {
-            cerr << "Klaida: nepavyko atidaryti failo '" << argv[1] << "'." << endl;
+            cerr << "Klaida: nepavyko atidaryti failo '" << arg[1] << "'." << endl;
             return 1;
         }
 
         string line;
         while (getline(file, line)) {
-            input_text += line + '\n';
+            input += line + '\n';
         }
         file.close();
 
         cout << "Failo turinys nuskaitytas, generuojamas hash'as..." << endl;
     } else {
         cout << "Iveskite teksta: ";
-        getline(cin, input_text);
+        getline(cin, input);
     }
 
     cout << "Hash'as: ";
-    hash_funkcija(input_text);
+    hash_funkcija(input);
 
     return 0;
 }
