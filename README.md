@@ -72,12 +72,13 @@ Efektyvumas:
 ![Diagrama](8.jpeg)
 
 Kolizijų paieška:<br>
-![Kolizijos](6.jpeg)
+![Kolizijos](6.jpeg)<br>
 Kolizijų nėra - gerai
 
-Lavinos efektas:
+Lavinos efektas:<br>
 ![Lavinos efektas](7.jpeg)<br>
 Labai mažas pokytis - blogai
 
-Hiding ir puzzle-friendliness:
-![Hash atkūrimas](0EF197CC-0F7D-4B9E-B0AD-7B7183C5BA4D_4_5005_c.jpeg)
+Hiding ir puzzle-friendliness:<br>
+![Hash atkūrimas](9.jpeg)<br>
+Input ir salt neatkurti - gerai
