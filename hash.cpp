@@ -21,8 +21,10 @@ void hash_funkcija(const string& input) {
 
     for (int i = 0; i < 10; i++) {
         part0 = (part0 ^ (part1 * 3)) * part2;
+        part1 = (part1 ^ (part2 * 5)) * part3;
+        part2 = (part2 ^ (part3 * 7)) * part0;
+        part3 = (part3 ^ (part0 * 9)) * part1;
     }
-    
 
     cout << hex << setw(16) << part0 << setw(16) << part1 << setw(16) << part2 << setw(16) << part3 << endl;
 }
