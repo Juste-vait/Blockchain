@@ -20,7 +20,7 @@ void hash_funkcija(const string& input) {
     }
 
     for (int i = 0; i < 10; i++) {
-        part0 = part0 ^ part1;
+        part0 = (part0 ^ (part1 * 3));
     }
     
 
