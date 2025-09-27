@@ -64,12 +64,14 @@ Išvedimo dydis:<br>
 Failai su vienu simboliu:
 ![1 simbolis](10.jpeg)
 64 simboliai - gerai<br>
-hash'ai skiriasi - gerai
+Hash'ai skiriasi - gerai<br>
+Praeitame skyrėsi nedaug
 
 Failai su 1000 simbolių (skiriasi 1 simboliu):
 ![1000 simbolių](11.jpeg)
 64 simboliai - gerai<br>
-hash'ai skiriasi - gerai
+Hash'ai skiriasi - gerai<br>
+Praeitame skyrėsi nedaug
 
 Tuščias failas
 ![tuščias failas](12.jpeg)
@@ -78,19 +80,24 @@ Tuščias failas
 Deterministiškumas:
 ![1000 simbolių du kartus](13.jpeg)
 Tas pats failas duoda tą patį hash'ą - gerai
+Taip pat ir praeitoje hash funkcijoje
 
 Efektyvumas:<br>
 ![Efektyvumas](14.jpeg)
 ![Diagrama](18.jpeg)
+Palyginus su praeita hash funkcija laikas labai panašus
 
 Kolizijų paieška:<br>
 ![Kolizijos](15.jpeg)<br>
 Kolizijų nėra - gerai
+Taip pat ir praeitoje hash funkcijoje
 
 Lavinos efektas:<br>
 ![Lavinos efektas](16.jpeg)<br>
 Didelis pokytis - gerai
+Praitoje hash funkcijoje pokytis daug mažesnis
 
 Hiding ir puzzle-friendliness:<br>
 ![Hiding ir puzzle friendliness](17.jpeg)<br>
 Input ir salt neatkurti - gerai
+Taip pat ir praeitoje hash funkcijoje
