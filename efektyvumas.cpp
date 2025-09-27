@@ -33,7 +33,7 @@ string hash_funkcija(const string &input) {
     return ss.str();
 }
 
-vector<string> read_file_lines(const string &filename) {
+vector<string> skaityti_file(const string &filename) {
     ifstream file(filename);
     vector<string> lines;
 
@@ -50,7 +50,7 @@ vector<string> read_file_lines(const string &filename) {
     return lines;
 }
 
-double measure_time(const vector<string> &lines, int count, int repeats) {
+double matuoti_laika(const vector<string> &lines, int count, int repeats) {
     using namespace chrono;
     double total_time = 0.0;
 
@@ -73,7 +73,7 @@ double measure_time(const vector<string> &lines, int count, int repeats) {
 
 int main() {
     string filename = "konstitucija.txt";
-    vector<string> lines = read_file_lines(filename);
+    vector<string> lines = skaityti_file(filename);
 
     if (lines.empty()) {
         cerr << "Failas tuščias arba nerastas." << endl;
@@ -100,7 +100,7 @@ int main() {
 
     cout << "\nTestuojama su " << line_count << " eilutėmis, pakartojama " << repeats << " kartų.\n";
 
-    double avg_time = measure_time(lines, line_count, repeats);
+    double avg_time = matuoti_laika(lines, line_count, repeats);
 
     cout << "Rezultatai:\n";
     cout << setw(10) << "Eilutės" << setw(20) << "Vid. laikas (ms)\n";

@@ -33,7 +33,7 @@ string hash_funkcija(const string &input) {
     return ss.str();
 }
 
-string generate_salt(size_t length) {
+string generuoti_salt(size_t length) {
     const string chars = "abcdefghijklmnopqrstuvwxyz0123456789";
     string salt;
 
@@ -49,7 +49,7 @@ void test_hiding() {
     cout << "HIDING TESTAS" << endl;
 
     string original_input = "secret";
-    string salt = generate_salt(4);
+    string salt = generuoti_salt(4);
     string combined = original_input + salt;
 
     string hash_value = hash_funkcija(combined);
