@@ -79,7 +79,7 @@ Deterministiškumas:
 ![1000 simbolių du kartus](13.jpeg)
 Tas pats failas duoda tą patį hash'ą - gerai
 
-Efektyvumas:
+Efektyvumas:<br>
 ![Efektyvumas](14.jpeg)
 ![Diagrama](18.jpeg)
 
