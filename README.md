@@ -84,20 +84,20 @@ Taip pat ir praeitoje versijoje
 
 Efektyvumas:<br>
 ![Efektyvumas](14.jpeg)
-![Diagrama](18.jpeg)
+![Diagrama](18.jpeg)<br>
 Palyginus su praeita versija laikas labai panašus
 
 Kolizijų paieška:<br>
 ![Kolizijos](15.jpeg)<br>
-Kolizijų nėra - gerai
+Kolizijų nėra - gerai<br>
 Taip pat ir praeitoje versijoje
 
 Lavinos efektas:<br>
 ![Lavinos efektas](16.jpeg)<br>
-Didelis pokytis - gerai
+Didelis pokytis - gerai<br>
 Praitoje versijoje pokytis daug mažesnis
 
 Hiding ir puzzle-friendliness:<br>
 ![Hiding ir puzzle friendliness](17.jpeg)<br>
-Input ir salt neatkurti - gerai
+Input ir salt neatkurti - gerai<br>
 Taip pat ir praeitoje versijoje
