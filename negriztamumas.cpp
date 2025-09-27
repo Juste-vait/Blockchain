@@ -21,6 +21,13 @@ string hash_funkcija(const string &input) {
         part3 = part3 + part2 + (part0 << 1);
     }
 
+    for (int i = 0; i < 10; i++) {
+        part0 = (part0 ^ (part1 * 3)) * 0x4e97b2d8f3c1a5e3ULL;
+        part1 = (part1 ^ (part2 * 5)) * 0xa3d5f79c482eb16fULL;
+        part2 = (part2 ^ (part3 * 7)) * 0x5b18e4c7d92fa06eULL;
+        part3 = (part3 ^ (part0 * 9)) * 0xc74a9e21f05bd83cULL;
+    }
+
     stringstream ss;
     ss << hex << setfill('0') << setw(16) << part0 << setw(16) << part1 << setw(16) << part2 << setw(16) << part3;
     return ss.str();
