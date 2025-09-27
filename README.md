@@ -80,17 +80,17 @@ Deterministiškumas:
 Tas pats failas duoda tą patį hash'ą - gerai
 
 Efektyvumas:
-![Efektyvumas](5.jpeg)
-![Diagrama](8.jpeg)
+![Efektyvumas](14.jpeg)
+![Diagrama](18.jpeg)
 
 Kolizijų paieška:<br>
-![Kolizijos](6.jpeg)<br>
+![Kolizijos](15.jpeg)<br>
 Kolizijų nėra - gerai
 
 Lavinos efektas:<br>
-![Lavinos efektas](7.jpeg)<br>
-Labai mažas pokytis - blogai
+![Lavinos efektas](16.jpeg)<br>
+Didelis pokytis - gerai
 
 Hiding ir puzzle-friendliness:<br>
-![Hash atkūrimas](9.jpeg)<br>
+![Hiding ir puzzle friendliness](17.jpeg)<br>
 Input ir salt neatkurti - gerai
