@@ -1,5 +1,11 @@
 # Blockchain
 
+## Pagerintos versijos naudojant AI palyginimas su praeita
+- tyrimų rezultatai tokie patys, tik lavinos efekto rezultatai, kiek geresni:
+![Lavinos efektas su AI](19.jpeg)
+
+
+
 ## Idėja:
 - Turime keturias pradines būsenas (seed'us) 64 bitus (part0, part1, part2, part3). Kartu 256 bitai.
 - For ciklu iteruojame per kiekvieną įvesties baitą ir maišome su pradinėmis būsenomis.
