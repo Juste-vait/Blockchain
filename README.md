@@ -1,7 +1,7 @@
 # Blockchain
 
 ## Pagerintos versijos naudojant AI palyginimas su praeita
-- tyrimų rezultatai tokie patys, tik lavinos efekto rezultatai, kiek geresni:
+- tyrimų rezultatai tokie patys, tik lavinos efekto rezultatai kiek geresni:
 ![Lavinos efektas su AI](19.jpeg)
 
 
