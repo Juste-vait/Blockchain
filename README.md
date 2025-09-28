@@ -5,6 +5,7 @@
 ![Lavinos efektas su AI](19.jpeg)
 
 
+# Senosios versijos aprašymas ir rezultatai:
 
 ## Idėja:
 - Turime keturias pradines būsenas (seed'us) 64 bitus (part0, part1, part2, part3). Kartu 256 bitai.
