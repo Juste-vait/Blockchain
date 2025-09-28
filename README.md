@@ -101,3 +101,7 @@ Hiding ir puzzle-friendliness:<br>
 ![Hiding ir puzzle friendliness](17.jpeg)<br>
 Input ir salt neatkurti - gerai<br>
 Taip pat ir praeitoje versijoje
+
+
+Išvados:<br>
+Visuomet išvedami 64 simboliai hex formatu, tas pats input duoda tą patį hashą, lavinos efektas įgyvendintas, kolizijų nerasta. Ši versija geresnė nei praeita.
