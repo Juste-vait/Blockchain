@@ -88,6 +88,7 @@ Procentai rodo koks skirtumas yra tarp hash'ų (kuo didesnis procentas - tuo lab
 - Galiausiai sujungiame sumaišytas keturias dalis į vieną 256 bitų = 32 baitų = 64 hex formatu simbolių eilutę.
 
 ## Pseudokodas:
+```
 Pradžia
     Nustatyti keturias pradines reikšmes:
         part0 = 0x1234567890ABCDEF
@@ -113,6 +114,7 @@ Pradžia
     Sujungti visus 4 hex tekstus į vieną galutinį hash
     Išvesti hash
 Pabaiga
+```
 
 ## Paaiškinimai
 - Seed'ai (part0..part3) – pradinės reikšmės.
