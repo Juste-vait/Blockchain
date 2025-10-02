@@ -120,7 +120,8 @@ Pabaiga
 - part0 = part0 + b – tiesiog pridedame baitą prie part0.
 - part1 = part1 + part0 * 3 – part0 padauginame iš 3, kad keistųsi baitai ir pridedame prie part1.
 - part2 = part2 + part1 + (b * 7) – sujungiam ankstesnes vertes ir baitą padaugintą iš 7.
-- part3 = part3 + part2 + (part0 << 1) – <<1 perstumia bitus į kairę per 1, sudedamos visos vertės išskyrus part1.
+- part3 = part3 + part2 + (part0 * 2) – part0 padauginamas iš 2, sudedamos visos vertės, išskyrus part1.
+
 - 10 kartų kartojame dar vieną maišymo ciklą.
 - part0 maišomas su part1 (part1 padauginamas iš 3), po to viskas dauginama iš konstantos 0x4E97B2D8F3C1A5E3.
 - part1 maišomas su part2 (×5), dauginama iš kitos konstantos.
@@ -129,7 +130,7 @@ Pabaiga
 - Output – kiekvieną 64 bitų (16 hex simbolių) reikšmę atspausdiname su setw(16) + setfill('0'), todėl visada gauname 4×16 = 64 hex simbolius.
 
 
-## Kompilaivimas
+## Kompiliavimas
 "g++ -std=c++17 -O2 -o hash hash.cpp"
 
 ## Paleidimas rankiniu būdu: 
